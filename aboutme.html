@@ -14,6 +14,49 @@
             <img src = "C:\Users\S559007\Desktop\webapps-repos\59336625.jpg" alt = "book picture"><br>
         
         </p>
+        <hr>
+        <h4>
+            Tourist table
+        </h4>
+        <p>Here I'am creating the table having some country names that i wanna suggest to the people who want to visit.</p>
+        <table>
+            <tr>
+                <th> Country </th>
+                <th> Reason </th>
+                <th> Days Spend </th>
+            </tr>
+            <tr>
+                <td>Australia</td>
+                <td>Grounds are good</td>
+                <td>3 days</td>
+            </tr>
+            <tr>
+                <td>canada</td>
+                <td>winter climate</td>
+                <td>4 days</td>
+            </tr>
+            <tr>
+                <td>india</td>
+                <td>tradition</td>
+                <td>5 days</td>
+            </tr>
+            <tr>
+                <td>America</td>
+                <td>places</td>
+                <td>4 days</td>
+            </tr>
+        </table>
+        <hr>
+        <h4>Code display</h4>
+        <b>Date() select previous day why?</b>
+        <pre>
+            var option={Year:'numeric',Month:'long', Days:'numeric'};
+            var selecteddate=new Date(this.value);
+            var DOB=selecteddate.toLocaleDateString('en-US',Option);
+         //    console.log("DOB is:" + DOB)
+            ChooseDate.innerHTML="DOB:" + " " + DOB;
+        </pre>
+        <a href="https://stackoverflow.com/questions/75381395/date-select-previous-day-why">link to the javascript code</a>
     </body>
 
 </html>
